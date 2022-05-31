@@ -1,0 +1,7 @@
+C:\Users\ Admin\Desktop\TPA\TPA\bin\Debug\TPA.exe.config
+C:\Users\ Admin\Desktop\TPA\TPA\bin\Debug\TPA.exe
+C:\Users\ Admin\Desktop\TPA\TPA\bin\Debug\TPA.pdb
+C:\Users\ Admin\Desktop\TPA\TPA\obj\Debug\TPA.exe
+C:\Users\ Admin\Desktop\TPA\TPA\obj\Debug\TPA.pdb
+C:\Users\ Admin\Desktop\TPA\TPA\obj\Debug\TPA.csproj.GenerateResource.Cache
+C:\Users\ Admin\Desktop\TPA\TPA\obj\Debug\WindowsApplication1.Form1.resources
