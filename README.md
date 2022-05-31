@@ -5,3 +5,5 @@
 源码是通过dnSpy生成的，亲测可用。
 源码请用visual studio 2010 打开/编译。
 visual studio简化版 合集下载：http://pan.baidu.com/s/1sldAQmD
+
+<img src="https://github.com/JacquesVonHamsterviel/YiZhuERP5.0-KeyGen/raw/main/demo.png"></img>
