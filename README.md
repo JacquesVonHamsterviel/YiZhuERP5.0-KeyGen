@@ -1,4 +1,5 @@
 # YiZhuERP5.0-KeyGen
+#易助 #注册机
 鼎捷易助 5.0ERP注册机
 需要.Net4.0 环境运行，亲测Windows XP到Windows 10都可以打开。
 
