@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keygen</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #6d7b8d; }
+  body { font: 12px/1 "SimSun", "宋体", Tahoma, sans-serif; color: #000;
+         -webkit-font-smoothing: none; padding: 20px; }
+  .win { width: 643px; margin: 0 auto; background: #f0f0f0;
+         border: 1px solid #2b3a55; box-shadow: 0 6px 24px rgba(0,0,0,.4); }
+  .titlebar { height: 30px; display: flex; align-items: center; padding: 0 4px 0 8px;
+         background: linear-gradient(#f6faff, #dbe7fb); border-bottom: 1px solid #a9bcd6; }
+  .titlebar .t { flex: 1; font-family: Tahoma, "SimSun", sans-serif; font-size: 12px; color: #123; }
+  .titlebar .b { width: 28px; height: 20px; margin-left: 2px; border: 1px solid #a9bcd6;
+         border-radius: 3px; background: #eef4fd; color: #123; font: 11px/18px Tahoma, sans-serif;
+         text-align: center; }
+  .titlebar .b.x { background: #f7d7d7; border-color: #e0a3a3; }
+  .client { position: relative; width: 643px; height: 610px; background: #f0f0f0;
+         overflow: hidden; }
+  .client .lbl { position: absolute; white-space: nowrap; line-height: 14px; }
+  .client .tb { position: absolute; box-sizing: border-box; border: 1px solid #7f9db9;
+         background: #fff; font: 12px/1 "SimSun", "宋体", Tahoma, sans-serif; padding: 2px 2px; }
+  .client .tb:focus { outline: none; border-color: #3d7bbf; }
+  .client textarea.key { resize: none; overflow: auto; white-space: pre-wrap;
+         word-break: break-all; line-height: 15px; }
+  .client .gb { position: absolute; box-sizing: border-box; border: 2px groove #f0f0f0; }
+  .client .gb .cap { position: absolute; top: -8px; left: 8px; background: #f0f0f0; padding: 0 3px; }
+  .client .cb { position: absolute; box-sizing: border-box; display: flex; align-items: center;
+         white-space: nowrap; }
+  .client .cb input { width: 13px; height: 13px; margin: 0 4px 0 0; flex: 0 0 auto; }
+  .client .cb label { cursor: pointer; }
+  .client .btn { position: absolute; box-sizing: border-box; font: 12px "SimSun", Tahoma, sans-serif;
+         background: linear-gradient(#fdfdfd, #e4e4e4); border: 1px solid #8c8c8c; border-radius: 3px;
+         cursor: pointer; }
+  .client .btn:hover { background: linear-gradient(#ffffff, #e9f2fc); border-color: #3d7bbf; }
+  .client .btn:active { background: #d8e6f6; }
+</style>
+</head>
+<body>
+  <div class="win">
+    <div class="titlebar">
+      <div class="t">Keygen</div>
+      <div class="b">&#8211;</div><div class="b">&#9633;</div><div class="b x">&#10005;</div>
+    </div>
+    <div class="client">
+<button type="button" id="Button1" class="btn" style="left:523px;top:579px;width:75px;height:23px;">注册</button>
+<input type="text" id="SN" class="tb" style="left:14px;top:24px;width:445px;height:21px;">
+<textarea id="KEY" class="tb key" readonly style="left:12px;top:538px;width:458px;height:64px;"></textarea>
+<input type="text" id="REGSTR" class="tb" style="left:13px;top:488px;width:618px;height:21px;">
+<span class="lbl" style="left:12px;top:470px;">注册公司名</span>
+<span class="lbl" style="left:10px;top:520px;">序列号</span>
+<input type="text" id="PW" class="tb" readonly style="left:496px;top:538px;width:135px;height:21px;">
+<span class="lbl" style="left:494px;top:520px;">验证口令</span>
+<span class="lbl" style="left:12px;top:7px;">安装代号</span>
+<input type="text" id="CCode" class="tb" maxlength="6" style="left:478px;top:24px;width:153px;height:21px;">
+<span class="lbl" style="left:476px;top:7px;">客户代号</span>
+<div class="gb" style="left:12px;top:62px;width:619px;height:399px;"><span class="cap">功能选择</span>
+<span class="lbl" style="left:509px;top:270px;">功能</span>
+<span class="lbl" style="left:509px;top:213px;">功能</span>
+<span class="lbl" style="left:509px;top:152px;">功能</span>
+<span class="lbl" style="left:509px;top:94px;">功能</span>
+<span class="lbl" style="left:509px;top:39px;">功能</span>
+<span class="lbl" style="left:509px;top:270px;">功能</span>
+<span class="lbl" style="left:509px;top:213px;">功能</span>
+<span class="lbl" style="left:509px;top:152px;">功能</span>
+<span class="lbl" style="left:509px;top:94px;">功能</span>
+<span class="lbl" style="left:509px;top:39px;">功能</span>
+<span class="lbl" style="left:362px;top:270px;">功能</span>
+<span class="lbl" style="left:362px;top:213px;">功能</span>
+<span class="lbl" style="left:362px;top:152px;">功能</span>
+<span class="lbl" style="left:362px;top:94px;">功能</span>
+<span class="lbl" style="left:362px;top:39px;">功能</span>
+<span class="lbl" style="left:360px;top:334px;">功能</span>
+<span class="lbl" style="left:216px;top:334px;">功能</span>
+<span class="lbl" style="left:216px;top:270px;">功能</span>
+<span class="lbl" style="left:216px;top:213px;">功能</span>
+<span class="lbl" style="left:216px;top:152px;">功能</span>
+<span class="lbl" style="left:216px;top:94px;">功能</span>
+<span class="lbl" style="left:231px;top:39px;">功能</span>
+<span class="lbl" style="left:68px;top:330px;">功能</span>
+<span class="lbl" style="left:68px;top:266px;">功能</span>
+<span class="lbl" style="left:68px;top:209px;">功能</span>
+<span class="lbl" style="left:68px;top:148px;">功能</span>
+<span class="lbl" style="left:68px;top:90px;">功能</span>
+<span class="lbl" style="left:68px;top:35px;">功能代号</span>
+<span class="lbl" style="left:464px;top:270px;">用户数</span>
+<span class="lbl" style="left:464px;top:213px;">用户数</span>
+<span class="lbl" style="left:464px;top:152px;">用户数</span>
+<span class="lbl" style="left:464px;top:94px;">用户数</span>
+<span class="lbl" style="left:464px;top:39px;">用户数</span>
+<span class="lbl" style="left:464px;top:270px;">用户数</span>
+<span class="lbl" style="left:464px;top:213px;">用户数</span>
+<span class="lbl" style="left:464px;top:152px;">用户数</span>
+<span class="lbl" style="left:464px;top:94px;">用户数</span>
+<span class="lbl" style="left:464px;top:39px;">用户数</span>
+<span class="lbl" style="left:317px;top:270px;">用户数</span>
+<span class="lbl" style="left:317px;top:213px;">用户数</span>
+<span class="lbl" style="left:317px;top:152px;">用户数</span>
+<span class="lbl" style="left:317px;top:94px;">用户数</span>
+<span class="lbl" style="left:317px;top:39px;">用户数</span>
+<span class="lbl" style="left:315px;top:334px;">用户数</span>
+<span class="lbl" style="left:170px;top:334px;">用户数</span>
+<span class="lbl" style="left:170px;top:270px;">用户数</span>
+<span class="lbl" style="left:170px;top:213px;">用户数</span>
+<span class="lbl" style="left:170px;top:152px;">用户数</span>
+<span class="lbl" style="left:170px;top:94px;">用户数</span>
+<span class="lbl" style="left:170px;top:39px;">用户数</span>
+<span class="lbl" style="left:23px;top:332px;">用户数</span>
+<span class="lbl" style="left:23px;top:268px;">用户数</span>
+<span class="lbl" style="left:23px;top:211px;">用户数</span>
+<span class="lbl" style="left:23px;top:150px;">用户数</span>
+<span class="lbl" style="left:23px;top:92px;">用户数</span>
+<span class="lbl" style="left:23px;top:37px;">用户数</span>
+<input type="text" id="WLBQTY" class="tb" maxlength="2" style="left:464px;top:288px;width:41px;height:21px;">
+<input type="text" id="SCMQTY" class="tb" maxlength="2" style="left:464px;top:231px;width:41px;height:21px;">
+<input type="text" id="PURQTY" class="tb" maxlength="2" style="left:464px;top:170px;width:41px;height:21px;">
+<input type="text" id="INVQTY" class="tb" maxlength="2" style="left:464px;top:112px;width:41px;height:21px;">
+<input type="text" id="CWBQTY" class="tb" maxlength="2" style="left:464px;top:57px;width:41px;height:21px;">
+<span class="cb" style="left:511px;top:290px;width:60px;height:16px;" title="WLB 物流包(销售/采购/存货)"><input type="checkbox" id="WLB"><label for="WLB">物流包</label></span>
+<span class="cb" style="left:511px;top:233px;width:72px;height:16px;" title="生产成本"><input type="checkbox" id="SCM"><label for="SCM">生产成本</label></span>
+<span class="cb" style="left:511px;top:172px;width:48px;height:16px;" title="采购"><input type="checkbox" id="PUR"><label for="PUR">采购</label></span>
+<span class="cb" style="left:511px;top:114px;width:48px;height:16px;" title="存货"><input type="checkbox" id="INV"><label for="INV">存货</label></span>
+<span class="cb" style="left:511px;top:59px;width:96px;height:16px;" title="财务报表平台"><input type="checkbox" id="CWB"><label for="CWB">财务报表平台</label></span>
+<input type="text" id="SYSQTY" class="tb" maxlength="2" style="left:317px;top:288px;width:41px;height:21px;">
+<input type="text" id="RMAQTY" class="tb" maxlength="2" style="left:317px;top:231px;width:41px;height:21px;">
+<input type="text" id="PJMQTY" class="tb" maxlength="2" style="left:317px;top:170px;width:41px;height:21px;">
+<input type="text" id="GZSQTY" class="tb" maxlength="2" style="left:317px;top:112px;width:41px;height:21px;">
+<input type="text" id="CRMQTY" class="tb" maxlength="2" style="left:317px;top:57px;width:41px;height:21px;">
+<span class="cb" style="left:364px;top:290px;width:60px;height:16px;" title="SYS 系统包（销售/采购/存货/生管/物料需求/应收应付/报表生成）"><input type="checkbox" id="SYS"><label for="SYS">系统包</label></span>
+<span class="cb" style="left:364px;top:233px;width:72px;height:16px;" title="服务管理"><input type="checkbox" id="RMA"><label for="RMA">服务管理</label></span>
+<span class="cb" style="left:364px;top:172px;width:72px;height:16px;" title="票据资金"><input type="checkbox" id="PJM"><label for="PJM">票据资金</label></span>
+<span class="cb" style="left:364px;top:114px;width:48px;height:16px;" title="工资"><input type="checkbox" id="GZS"><label for="GZS">工资</label></span>
+<input type="text" id="ALLQTY" class="tb" style="left:315px;top:352px;width:41px;height:21px;">
+<span class="cb" style="left:364px;top:59px;width:72px;height:16px;" title="客户关系"><input type="checkbox" id="CRM"><label for="CRM">客户关系</label></span>
+<input type="text" id="ZCSQTY" class="tb" maxlength="2" style="left:170px;top:352px;width:41px;height:21px;">
+<input type="text" id="SXMQTY" class="tb" maxlength="2" style="left:170px;top:288px;width:41px;height:21px;">
+<input type="text" id="RGSQTY" class="tb" maxlength="2" style="left:170px;top:231px;width:41px;height:21px;">
+<input type="text" id="KJSQTY" class="tb" maxlength="2" style="left:170px;top:170px;width:41px;height:21px;">
+<input type="text" id="GYSQTY" class="tb" maxlength="2" style="left:170px;top:112px;width:41px;height:21px;">
+<span class="cb" style="left:362px;top:354px;width:72px;height:16px;" title="所有功能"><input type="checkbox" id="ALL"><label for="ALL">所有功能</label></span>
+<input type="text" id="COPQTY" class="tb" maxlength="2" style="left:170px;top:57px;width:41px;height:21px;">
+<span class="cb" style="left:218px;top:354px;width:48px;height:16px;" title="资产"><input type="checkbox" id="ZCS"><label for="ZCS">资产</label></span>
+<span class="cb" style="left:218px;top:290px;width:72px;height:16px;" title="物料需求"><input type="checkbox" id="SXM"><label for="SXM">物料需求</label></span>
+<span class="cb" style="left:218px;top:233px;width:72px;height:16px;" title="报表生成"><input type="checkbox" id="RGS"><label for="RGS">报表生成</label></span>
+<span class="cb" style="left:218px;top:172px;width:72px;height:16px;" title="会计总账"><input type="checkbox" id="KJS"><label for="KJS">会计总账</label></span>
+<span class="cb" style="left:218px;top:114px;width:72px;height:16px;" title="工单工艺"><input type="checkbox" id="GYS"><label for="GYS">工单工艺</label></span>
+<span class="cb" style="left:218px;top:59px;width:48px;height:16px;" title="销售"><input type="checkbox" id="COP"><label for="COP">销售</label></span>
+<input type="text" id="YSFQTY" class="tb" maxlength="2" style="left:23px;top:350px;width:41px;height:21px;">
+<span class="cb" style="left:70px;top:350px;width:72px;height:16px;" title="应收应付"><input type="checkbox" id="YSF"><label for="YSF">应收应付</label></span>
+<input type="text" id="SGMQTY" class="tb" maxlength="2" style="left:23px;top:286px;width:41px;height:21px;">
+<span class="cb" style="left:70px;top:286px;width:72px;height:16px;" title="生产管理"><input type="checkbox" id="SGM"><label for="SGM">生产管理</label></span>
+<input type="text" id="QMSQTY" class="tb" maxlength="2" style="left:23px;top:229px;width:41px;height:21px;">
+<span class="cb" style="left:70px;top:229px;width:72px;height:16px;" title="检验管理"><input type="checkbox" id="QMS"><label for="QMS">检验管理</label></span>
+<input type="text" id="JCAQTY" class="tb" maxlength="2" style="left:23px;top:168px;width:41px;height:21px;">
+<span class="cb" style="left:70px;top:168px;width:72px;height:16px;" title="营业决策"><input type="checkbox" id="JCA"><label for="JCA">营业决策</label></span>
+<input type="text" id="FIBQTY" class="tb" maxlength="2" style="left:23px;top:110px;width:41px;height:21px;">
+<span class="cb" style="left:70px;top:110px;width:60px;height:16px;" title="FIB 财务包(会计总帐/应收应付)"><input type="checkbox" id="FIB"><label for="FIB">财务包</label></span>
+<input type="text" id="BASQTY" class="tb" maxlength="2" style="left:23px;top:55px;width:41px;height:21px;">
+<span class="cb" style="left:70px;top:55px;width:60px;height:16px;" title="BAS 基础包（销售/采购/存货/应收应付/报表生成）"><input type="checkbox" id="BAS"><label for="BAS">基础包</label></span>
+</div>
+    </div>
+  </div>
+
+  <script src="keygen.js"></script>
+  <script>
+  (function () {
+    "use strict";
+    var ALL = document.getElementById("ALL");
+    function byId(id) { return document.getElementById(id); }
+
+    // "所有功能" clears every module; any module clears "所有功能" (matches the C# events).
+    ALL.addEventListener("change", function () {
+      if (!this.checked) return;
+      Keygen.MODULES.forEach(function (m) { byId(m.code).checked = false; });
+    });
+    Keygen.MODULES.forEach(function (m) {
+      byId(m.code).addEventListener("change", function () {
+        if (this.checked) ALL.checked = false;
+      });
+    });
+
+    function readSelection() {
+      var quantities = {};
+      Keygen.MODULES.forEach(function (m) { quantities[m.code] = byId(m.code + "QTY").value; });
+      var checked = [];
+      Keygen.MODULES.forEach(function (m) { if (byId(m.code).checked) checked.push(m.code); });
+      return {
+        customerCode: byId("CCode").value,
+        installCode: byId("SN").value,
+        company: byId("REGSTR").value,
+        allFeatures: ALL.checked,
+        allQuantity: byId("ALLQTY").value,
+        checked: checked,
+        quantities: quantities
+      };
+    }
+
+    byId("Button1").addEventListener("click", function () {
+      try {
+        var res = Keygen.generate(readSelection());
+        byId("KEY").value = res.serial;
+        byId("PW").value = res.password;
+      } catch (e) {
+        if (e && e.name === "KeygenError") { alert(e.message); }
+        else { alert("生成失败：" + (e && e.message ? e.message : e)); throw e; }
+      }
+    });
+  })();
+  </script>
+</body>
+</html>

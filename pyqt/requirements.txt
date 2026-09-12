@@ -1,0 +1,2 @@
+# PyQt6 also works; ui.py imports PyQt6 first and falls back to PyQt5.
+PyQt5>=5.15

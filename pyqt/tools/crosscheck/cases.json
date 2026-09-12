@@ -1,0 +1,17 @@
+[
+  {"name":"regression-lock (Chinese company, 2 modules)","CCode":"ABC123","SN":"INSTALL-01","REGSTR":"测试公司","ALL":false,"ALLQTY":"","modules":{"BAS":"5","COP":"7"}},
+  {"name":"ASCII company, 2 modules","CCode":"CUST01","SN":"SN12345","REGSTR":"ACME","ALL":false,"ALLQTY":"","modules":{"YSF":"3","RMA":"9"}},
+  {"name":"ALL features","CCode":"XYZ999","SN":"INST-XYZ","REGSTR":"BigCorp","ALL":true,"ALLQTY":"50","modules":{}},
+  {"name":"blank install code (spaces)","CCode":"BLANK1","SN":"   ","REGSTR":"Test","ALL":false,"ALLQTY":"","modules":{"KJS":"1"}},
+  {"name":"qty sum widens past 99","CCode":"WIDE01","SN":"SNW","REGSTR":"WideCo","ALL":false,"ALLQTY":"","modules":{"BAS":"50","COP":"60"}},
+  {"name":"Chinese multi-char company","CCode":"CN0001","SN":"CN-SN-1","REGSTR":"北京鼎捷软件","ALL":false,"ALLQTY":"","modules":{"INV":"12","COP":"8","PUR":"4"}},
+  {"name":"special chars company","CCode":"SPC001","SN":"SN-SPC","REGSTR":"A&B (2024) 100%","ALL":false,"ALLQTY":"","modules":{"SGM":"2"}},
+  {"name":"Val embedded space / non-numeric qty","CCode":"VAL001","SN":"SNVAL","REGSTR":"ValCo","ALL":false,"ALLQTY":"","modules":{"BAS":"1 0","COP":"ab"}},
+  {"name":"Format rounding 2.5 -> 3","CCode":"RND001","SN":"SNRND","REGSTR":"RndCo","ALL":false,"ALLQTY":"","modules":{"BAS":"2.5"}},
+  {"name":"no modules selected","CCode":"NONE01","SN":"SNNONE","REGSTR":"NoneCo","ALL":false,"ALLQTY":"","modules":{}},
+  {"name":"single high-index module RMA","CCode":"RMA001","SN":"SNRMA","REGSTR":"RmaCo","ALL":false,"ALLQTY":"","modules":{"RMA":"7"}},
+  {"name":"checked module, empty qty","CCode":"EMP001","SN":"SNEMP","REGSTR":"EmpCo","ALL":false,"ALLQTY":"","modules":{"SYS":""}},
+  {"name":"all 22 modules each 99","CCode":"ALL22M","SN":"SN22","REGSTR":"MaxCo","ALL":false,"ALLQTY":"","modules":{"YSF":"99","PJM":"99","KJS":"99","RGS":"99","SGM":"99","CRM":"99","GZS":"99","ZCS":"99","SXM":"99","SCM":"99","GYS":"99","JCA":"99","CWB":"99","COP":"99","PUR":"99","INV":"99","WLB":"99","FIB":"99","SYS":"99","BAS":"99","QMS":"99","RMA":"99"}},
+  {"name":"ALL features qty rounding","CCode":"ALLRND","SN":"SNAR","REGSTR":"公司AR","ALL":true,"ALLQTY":"7.5","modules":{}},
+  {"name":"lowercase+digits customer, mixed","CCode":"a1b2c3","SN":"sn_Mixed-9","REGSTR":"Mixed 混合 Co","ALL":false,"ALLQTY":"","modules":{"FIB":"3","WLB":"6","SYS":"2","BAS":"1"}}
+]
