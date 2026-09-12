@@ -5,9 +5,9 @@
 易助 5.0ERP注册机
 
 
-提供3个版本：C#（.Net4.0），Python（pyqt版本），纯前端版本（HTML+JS）
+需要.Net4.0 环境运行，亲测Windows XP到Windows 10都可以打开。
 
 
-仅供学习，请在下载后24小时内删除
+源码请用visual studio 2010 打开/编译。
 
 <img src="https://github.com/JacquesVonHamsterviel/YiZhuERP5.0-KeyGen/raw/main/demo.png"></img>
